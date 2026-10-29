@@ -1,0 +1,12 @@
+{
+  "name": "b2pr-fixture-ideas",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Backlog2PR M0 test project: a tiny ideas web service with no dependencies",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  }
+}
