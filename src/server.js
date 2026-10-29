@@ -10,7 +10,7 @@ const MAX_BODY = 16 * 1024;
 
 function send(res, status, body) {
   res.writeHead(status, { "content-type": "application/json" });
-  res.end(JSON.stringify(body));
+  res.end(JSON.stringify(body) + "\n");
 }
 
 async function readJson(req) {
